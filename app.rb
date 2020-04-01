@@ -12,7 +12,7 @@ get '/' do
     end
     
     get '/pirates' do 
-      erb :'pirates/new'
+     erb :'pirates/show'
     end 
    
    
